@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+body {
+    background-color: #333;
+    /* Ajuda com a responsividade e centraliza o container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login__container {
+    background-color: #444;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+
+    text-align: center;
+}
+
+.input__group {
+    margin-bottom: 20px; /* Add margin to create spacing between input groups */
+}
+
+.input__group label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input__group input {
+    padding: 10px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.login__btn {
+    background-color: #ffda47;
+    color: #333;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    margin-top: 5%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.login__btn:hover {
+    background-color: #c2a043;
+}

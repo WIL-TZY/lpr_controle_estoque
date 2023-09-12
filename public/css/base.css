@@ -1,0 +1,65 @@
+
+/* Estilos Genéricos - se aplicam a tudo */
+
+html {
+    line-height: 1.15; 
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+button {
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+a {
+    background-color: transparent;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+code {
+    font-family: monospace, monospace; 
+    font-size: 1em;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+fieldset {
+    padding: 0;
+}
+
+legend {
+    box-sizing: border-box;
+    max-width: 100%; 
+    padding: 0;
+    white-space: normal;
+}
+

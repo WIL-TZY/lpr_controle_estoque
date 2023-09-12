@@ -1,0 +1,62 @@
+:root {
+    --font: Verdana, sans-serif;
+}
+
+* {
+    border: none;
+    box-sizing: border-box;
+}
+
+.menuPrincipal {
+    position: absolute; /* Torna o menu "flutuante" */
+    top: 0px;
+    left: 0px;
+    display: flex;
+    /* flex-start = top left */
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 1px solid #f0f; */
+    width: 255px;
+    height: 100vh; /* Ocupa a largura toda da janela/viewport */
+    transition: all .2s; /* Faz a animação */
+}
+
+/* Classe p/ ocultar o menu principal */
+.ocultar {
+    left: -220px !important;
+    transition: all .2s;
+}
+
+.menuItens {
+    background-color: #808080;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.btn__menuItem {
+    background-color: #ccc;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin: 5px 10px;
+    padding: 5px 5px;
+    /* É importante fixar o tamanho devido a abertura e fechamento da sidebar */
+    width: 200px; 
+}
+
+.btn__menuItem:hover {
+    background-color: #afafaf;
+}
+
+.btn__menuItem:focus {
+    background-color: #afafaf;
+    border: 2px solid #333;
+}
+
+.btn__menuPrincipal {
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "name": "lepainrustique_estoque",
+  "version": "1.0.0",
+  "description": "Sistema de controle de estoque para uma padaria local.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "grupo3",
+  "license": "ISC"
+}
