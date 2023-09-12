@@ -13,12 +13,12 @@ Este é um projeto de controle de estoque que visa facilitar o gerenciamento de 
 - [ ] **Interface Amigável:** Design intuitivo e fácil de usar para facilitar a navegação e o uso.
 
 ## Tecnologias Utilizadas
-- **DB Diagram:** Ferramenta online gratuita para desenhar diagramas de relacionamento entre entidades escrevendo código. Armazena informações de produtos, estoque e fornecedores.
-
+- **DB Diagram:** Ferramenta online gratuita para desenhar diagramas de relacionamento entre entidades escrevendo código. Utiliza MySQL e o phpMyAdmin como SGBD. Toda a modelagem desse projeto será realizada no https://dbdiagram.io/. Armazena, portanto, informações de produtos, estoque e fornecedores.
 - **Figma:** Editor online baseado em nuvem usado no desenvolvimento do protótipo do design de interface de usuário (UI) e design de experiência de usuário (UX).
 - **HTML/CSS:** Para criar e estilizar a interface do usuário.
 - **JavaScript:** Utilizado tanto no lado do servidor (Node.js) quanto no lado do cliente para a lógica e interatividade.
 - **Node.js:** Utilizado para desenvolver a lógica do servidor.
+- **Node-RED:** Plataforma de desenvolvimento de código aberto usada para conectar dispositivos, APIs e serviços de maneira visual e interativa pelo uso de blocos chamados de "nós" (nodes).
 - **Trello:** Aplicativo com foco em gerenciamento de projetos em um formato de quadro virtual onde optamos por utilizar a metodologia Kanban como forma primária de organização.
 
 ## Dependências
@@ -28,7 +28,7 @@ Este é um projeto de controle de estoque que visa facilitar o gerenciamento de 
 ## Como Usar
 1. Clone o repositório.
 2. Instale as dependências com `npm install`.
-3. Configure as variáveis de ambiente para a conexão com o banco de dados.
+<!-- 3. Configure as variáveis de ambiente para a conexão com o banco de dados. -->
 4. Inicie o servidor com `npm start`.
 5. Acesse o aplicativo em seu navegador.
 

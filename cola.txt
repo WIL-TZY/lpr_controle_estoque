@@ -1,9 +1,0 @@
-iniciar o node:
-npm init
-
-rodar projeto com node:
-node index.js
-
-instalar dependências:
-npm install express
-npm install cors
